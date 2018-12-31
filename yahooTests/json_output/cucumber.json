@@ -1,0 +1,264 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: Horacio Vinuesa"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 21,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5686594689,
+              "status": "passed"
+            },
+            "match": {
+              "location": "YahooEmailLogin_StepDef.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Login to email app with regular account",
+        "description": "",
+        "id": "yahoo-register-and-login-from-email-app;login-to-email-app-with-regular-account",
+        "after": [
+          {
+            "result": {
+              "duration": 814000458,
+              "status": "passed"
+            },
+            "match": {
+              "location": "YahooEmailLogin_StepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7395399140,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User opens the email login page",
+            "match": {
+              "location": "YahooEmailLogin_StepDef.userOpensEmailLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 103857290,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User enters loginid",
+            "match": {
+              "location": "YahooEmailLogin_StepDef.userEntersLoginID()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 243788107,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User clicks on Next button",
+            "match": {
+              "location": "YahooEmailLogin_StepDef.userClicksOnNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1915642881,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User enters password",
+            "match": {
+              "location": "YahooEmailLogin_StepDef.userEntersPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14540614586,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User clicks on Sign-In button",
+            "match": {
+              "location": "YahooEmailLogin_StepDef.userClicksOnSignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77108651,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I validate the email app is opened correctly",
+            "match": {
+              "location": "YahooEmailLogin_StepDef.validateCorrectLoginToEmail()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2446467820,
+              "status": "passed"
+            },
+            "match": {
+              "location": "YahooEmailLogin_StepDef.setUp()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Verify the login page title from the email app",
+        "description": "",
+        "id": "yahoo-register-and-login-from-email-app;verify-the-login-page-title-from-the-email-app",
+        "after": [
+          {
+            "result": {
+              "duration": 571671411,
+              "status": "passed"
+            },
+            "match": {
+              "location": "YahooEmailLogin_StepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6984982746,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User opens the email login page",
+            "match": {
+              "location": "YahooEmailLogin_StepDef.userOpensEmailLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4103346,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User can see that the title of the page is the correct one",
+            "match": {
+              "location": "YahooEmailLogin_StepDef.verifyEmailPageTitle()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 33,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Yahoo register and login from email app",
+    "description": "I want to be able to register and login to the email service through the email app login page",
+    "id": "yahoo-register-and-login-from-email-app",
+    "keyword": "Feature",
+    "uri": "/Users/horace/Documents/eclipse-workspace/yahooTests/src/main/java/com/cucumberSelenium/yahooTests/yahooEmailLogin.feature",
+    "tags": [
+      {
+        "line": 20,
+        "name": "@sanity"
+      }
+    ]
+  }
+]
