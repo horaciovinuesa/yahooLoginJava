@@ -51,7 +51,7 @@ public class YahooEmailLogin_StepDef {
     @And("^User enters password$")
     	public void userEntersPassword() {
     	System.out.println("User enters password at email app login page");
-    	driver.findElement(By.xpath("//*[@id=\'login-passwd\']")).sendKeys("nomeacuerdo1");
+    	driver.findElement(By.xpath("//*[@id=\'login-passwd\']")).sendKeys("no");
     }
 	
     @And("^User clicks on Sign-In button$")
